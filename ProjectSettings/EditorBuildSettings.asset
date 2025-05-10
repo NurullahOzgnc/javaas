@@ -7,13 +7,25 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/prefabs/Scenes/scene1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 757795162f907be4d9404f14ac90d899
+  - enabled: 1
+    path: Assets/Scenes/girisEkran.unity
+    guid: b2b900aed76acc74993f78593947040e
+  - enabled: 1
+    path: Assets/Scenes/KarakterSecimi.unity
+    guid: 6c2e93d36a1af8a459f61ac3e8e0ed55
+  - enabled: 1
+    path: Assets/Scenes/Level_MENU.unity
+    guid: 802683f0c4dd3244fa287f596c6c7df9
   - enabled: 1
     path: Assets/Scenes/scene1.unity
     guid: a21a9a00af6e7864b8e47e4da021e457
   - enabled: 1
-    path: Assets/Scenes/scene2.unity
+    path: Assets/prefabs/Scenes/scene2.unity
     guid: 1a2e35f59ef7aba4b830c00071358972
+  - enabled: 1
+    path: Assets/Scenes/BossScene.unity
+    guid: f4a3647b10209f846b6e986925447cd6
   - enabled: 1
     path: Assets/Scenes/VictoryScene.unity
     guid: 971f0aefd53048c47ab4c99714033fba

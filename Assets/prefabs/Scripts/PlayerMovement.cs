@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     float horizantalMove = 0f;
     public bool jump = false;
-    public bool movement = false;
+    public bool movement = true;
 
 
 

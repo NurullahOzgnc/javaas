@@ -9,7 +9,7 @@ public class LevelMenu : MonoBehaviour
     public string mainMenuname = "girisEkran";
     public string level1name = "scene1";
     public string level2name = "scene2";
-    //public string level3name = "level3";
+    public string level3name = "BossScene";
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("girisEkran");
@@ -25,10 +25,10 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene(level2name);
     }
-   /* public void LoadLevel3()
+    public void LoadLevel3()
     {
-        SceneManager.LoadScene("level3name");
-    }*/
+        SceneManager.LoadScene("BossScene");
+    }
 }
 
 

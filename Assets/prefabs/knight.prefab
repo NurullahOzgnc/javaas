@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: knight
       objectReference: {fileID: 0}
+    - target: {fileID: 126443656182088852, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2047632034016578567, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.413
@@ -22,11 +26,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2436903558120036886, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.079
+      value: 1.705
       objectReference: {fileID: 0}
     - target: {fileID: 2436903558120036886, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.152
+      value: -0.166
       objectReference: {fileID: 0}
     - target: {fileID: 2936976139841683020, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
@@ -35,7 +39,7 @@ PrefabInstance:
     - target: {fileID: 3605999453870835308, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: ringPrefab
       value: 
-      objectReference: {fileID: 1175264531946006824, guid: cf7405d9daa1d1040957868fd68d723c, type: 3}
+      objectReference: {fileID: 8635600003983475574}
     - target: {fileID: 5495512315913224527, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -101,3 +105,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
+--- !u!1 &8635600003983475574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2594373991875579117, guid: 909bf00a6e6a441449829983482a2ad5, type: 3}
+  m_PrefabInstance: {fileID: 6041228246833270683}
+  m_PrefabAsset: {fileID: 0}
