@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21dbcbbc43292634eb182adc8e078cb0
+guid: 119f7e45f7288ec40b37df35dfd45dea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,91 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Transporter_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 13
-        width: 96
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe383025fc9b7274f807cb8157e6dff7
-      internalID: -1671058014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Transporter_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 13
-        width: 96
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdbc05565a486354f8310702506ebf7b
-      internalID: 1976263644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Transporter_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 13
-        width: 96
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55bd9bdaa5f42fb46a9357f04ee61ae4
-      internalID: -1982289295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Transporter_3
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 13
-        width: 96
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 611332fa256ce8b458c9d39ac4adc21c
-      internalID: 816734793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -203,11 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Transporter_0: -1671058014
-      Transporter_1: 1976263644
-      Transporter_2: -1982289295
-      Transporter_3: 816734793
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
