@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class enemy1 : MonoBehaviour { 
+public class enemy1 : MonoBehaviour
+{
     public Animator animator;
 
     public float maxHealth = 100;
@@ -22,14 +23,14 @@ public class enemy1 : MonoBehaviour {
     }
     public void TakeDamage(float damage)
     {
-        isAttacking = true; 
+        isAttacking = true;
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
         if (currentHealth <= 0)
         {
             Die();
         }
-        
+
     }
 
     void Die()
@@ -51,7 +52,7 @@ public class enemy1 : MonoBehaviour {
             Instantiate(ringPrefab, transform.position - new Vector3(0, 0.7f, 0), transform.rotation);
         }
     }
-   
+
     void EnterHurt()
     {
         enemy1ai.speed = 0;
@@ -61,4 +62,3 @@ public class enemy1 : MonoBehaviour {
         enemy1ai.speed = 1f;
     }
 }
-    

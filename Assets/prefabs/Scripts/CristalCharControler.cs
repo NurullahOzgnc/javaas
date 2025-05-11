@@ -119,6 +119,7 @@ public class CristalCharControler : MonoBehaviour
 
             }
         }
+        
     }
     void Attack()
     {
@@ -148,13 +149,11 @@ public class CristalCharControler : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapAreaAll(airAttackPoint1.position, airAttackPoint2.position, enemyLayers);
         foreach (var enemy in hitEnemies)
         {
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(normalAttackDamage); }
-            /*   if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(normalAttackDamage); }
-               if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(normalAttackDamage); }
-               if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(normalAttackDamage); }
-               if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(normalAttackDamage); }
-               if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(normalAttackDamage); }
-               if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(normalAttackDamage); }*/
+            if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
         }
 
     }
@@ -164,14 +163,11 @@ public class CristalCharControler : MonoBehaviour
         foreach (var enemy in hitEnemies)
         {
 
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(specialAttackDamage); }
-            /*   if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(specialAttackDamage); }
-               if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(specialAttackDamage); }
-               if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(specialAttackDamage); }
-               if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(specialAttackDamage); }
-               if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(specialAttackDamage); }
-               if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(specialAttackDamage); }
-            */
+            if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
         }
     }
     void Attack3OnAnimation()
@@ -179,14 +175,11 @@ public class CristalCharControler : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attack3Point.position, attack3Range, enemyLayers);
         foreach (var enemy in hitEnemies)
         {
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(burstAttackDamage); }
-            /*    if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(burstAttackDamage); }
-                if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(burstAttackDamage); }
-                if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(burstAttackDamage); }
-                if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(burstAttackDamage); }
-                if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(burstAttackDamage); }
-                if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(burstAttackDamage); }
-            */
+            if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
         }
     }
 
@@ -199,16 +192,12 @@ public class CristalCharControler : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attack2Point.position, attack2Range, enemyLayers);
         foreach (var enemy in hitEnemies)
         {
-            // if (enemy.name == "Enemy1") { enemy.GetComponent<enemy1>().TakeDamage(normalAttackDamage); }
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(normalAttackDamage); }
-            /*    if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(normalAttackDamage); }
-                if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(normalAttackDamage); }
-                if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(normalAttackDamage); }
-                if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(normalAttackDamage); }
-                if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(normalAttackDamage); }
-                if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(normalAttackDamage); }
+            if(enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
 
-    */
         }
     }
 
@@ -219,14 +208,12 @@ public class CristalCharControler : MonoBehaviour
         //Vurulan düþmanlarý tutan listedeki herkese hasar uygulama
         foreach (var enemy in hitEnemies)
         {
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(spinAttackDamage); }
-            /*  if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(spinAttackDamage); }
-              if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(spinAttackDamage); }
-              if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(spinAttackDamage); }
-              if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(spinAttackDamage); }
-              if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(spinAttackDamage); }
-              if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(spinAttackDamage); }
-            */
+            if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
+
         }
     }
 
@@ -239,15 +226,11 @@ public class CristalCharControler : MonoBehaviour
         //Vurulan düþmanlarý tutan listedeki herkese hasar uygulama
         foreach (var enemy in hitEnemies)
         {
-            //Vurulan hasar buraya girilecek
-            //   if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(spinAttackDamage); }
-            if (enemy.GetComponent<enemy1>() != null) { enemy.GetComponent<enemy1>().TakeDamage(spinAttackDamage); }
-            //   if (enemy.GetComponent<enemy2>() != null) { enemy.GetComponent<enemy2>().TakeDamage(spinAttackDamage); }
-            //  if (enemy.GetComponent<enemy3>() != null) { enemy.GetComponent<enemy3>().TakeDamage(spinAttackDamage); }
-            //   if (enemy.GetComponent<enemy4>() != null) { enemy.GetComponent<enemy4>().TakeDamage(spinAttackDamage); }
-            //   if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(spinAttackDamage); }
-            //    if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(spinAttackDamage); }
-
+            if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
         }
     }
 

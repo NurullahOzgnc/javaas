@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 8530974189752549533}
   - component: {fileID: 1174863156330656809}
   - component: {fileID: 3649131622652084673}
-  - component: {fileID: 431833432900791186}
-  - component: {fileID: 3605999453870835308}
   - component: {fileID: 2936976139841683020}
   - component: {fileID: 7189189993172632071}
   - component: {fileID: 5495512315913224527}
@@ -113,41 +111,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &431833432900791186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126443656182088852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7be3c8368241cc545b81c21aa710f0c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  attackPoint: {fileID: 2047632034016578567}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 128
---- !u!114 &3605999453870835308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126443656182088852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bfdb494cdd77194496770545762211e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 3649131622652084673}
-  maxHealth: 100
-  currentHealth: 0
-  isDead: 0
-  ringPrefab: {fileID: 1175264531946006824, guid: cf7405d9daa1d1040957868fd68d723c, type: 3}
-  isAttacking: 0
 --- !u!50 &2936976139841683020
 Rigidbody2D:
   serializedVersion: 4

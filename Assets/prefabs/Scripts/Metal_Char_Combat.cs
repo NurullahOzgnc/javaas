@@ -152,9 +152,8 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(normalAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(normalAttackDamage); }
             if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(normalAttackDamage); }
-          /*  if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(normalAttackDamage); }
-            if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(normalAttackDamage); }
-            if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(normalAttackDamage); }*/
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(normalAttackDamage); }
+         
         }
 
     }
@@ -168,10 +167,8 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(specialAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(specialAttackDamage); }
             if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(specialAttackDamage); }
-          /*  if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(specialAttackDamage); }
-            if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(specialAttackDamage); }
-            if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(specialAttackDamage); }
-         */
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(specialAttackDamage); }
+         
         }
     }
     void Attack3OnAnimation()
@@ -183,10 +180,8 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(burstAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(burstAttackDamage); }
             if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(burstAttackDamage); }
-           /* if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(burstAttackDamage); }
-            if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(burstAttackDamage); }
-            if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(burstAttackDamage); }
-        */
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(burstAttackDamage); }
+          
         }
     }
 
@@ -203,11 +198,8 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(normalAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(normalAttackDamage); }
             if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(normalAttackDamage); }
-          /*  if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(normalAttackDamage); }
-            if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(normalAttackDamage); }
-            if (enemy.GetComponent<Boss>() != null) { enemy.GetComponent<Boss>().TakeDamage(normalAttackDamage); }
-
-*/
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(normalAttackDamage); }
+          
         }
     }
 
@@ -222,10 +214,9 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemySamurai>() != null) { enemy.GetComponent<EnemySamurai>().TakeDamage(spinAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
             if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
-           /* if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
-            if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(spinAttackDamage); }
-            if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(spinAttackDamage); }
-          */
+            if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
+        
+          
         }
     }
 
@@ -243,9 +234,8 @@ public class Metal_Char_Combat : MonoBehaviour
             if (enemy.GetComponent<EnemyKnight>() != null) { enemy.GetComponent<EnemyKnight>().TakeDamage(spinAttackDamage); }
             if (enemy.GetComponent<EnemySlime>() != null) { enemy.GetComponent<EnemySlime>().TakeDamage(spinAttackDamage); }
            if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
-         //   if (enemy.GetComponent<EnemyWolf>() != null) { enemy.GetComponent<EnemyWolf>().TakeDamage(spinAttackDamage); }
-         //   if (enemy.GetComponent<enemy5>() != null) { enemy.GetComponent<enemy5>().TakeDamage(spinAttackDamage); }
-        //    if (enemy.GetComponent<FireBall>() != null) { enemy.GetComponent<FireBall>().TakeDamage(spinAttackDamage); }
+           if (enemy.GetComponent<BossYokaiAI>() != null) { enemy.GetComponent<BossYokaiAI>().TakeDamage(spinAttackDamage); }
+      
 
         }
     }
