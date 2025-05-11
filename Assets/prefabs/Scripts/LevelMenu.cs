@@ -10,6 +10,7 @@ public class LevelMenu : MonoBehaviour
     public string level1name = "scene1";
     public string level2name = "scene2";
     public string level3name = "BossScene";
+    public string level4name = "tobecontinued";
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("girisEkran");
@@ -28,6 +29,10 @@ public class LevelMenu : MonoBehaviour
     public void LoadLevel3()
     {
         SceneManager.LoadScene("BossScene");
+    }
+    public void LoadLevel4()
+    {
+        SceneManager.LoadScene("tobecontinued");
     }
 }
 
