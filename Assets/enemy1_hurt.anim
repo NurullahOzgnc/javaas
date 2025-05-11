@@ -74,14 +74,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: EnterHurt
+    functionName: TakeDamage
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
+    floatParameter: 15
     intParameter: 0
     messageOptions: 0
   - time: 0.26666668
-    functionName: ExitHurt
+    functionName: <TakeDamage>g__Die|5_0
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
